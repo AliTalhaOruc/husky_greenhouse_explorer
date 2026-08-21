@@ -8,6 +8,7 @@ An optimized ROS 2 (Humble) autonomous SLAM exploration and navigation pipeline 
 ### 🎯 Project Goal
 
 Develop a fully autonomous Husky UGV capable of exploring, mapping, and navigating narrow greenhouse corridors without human intervention while maintaining safe row-centered motion and reliable obstacle avoidance.
+
 ---
 ## 📌 Project Overview
 
