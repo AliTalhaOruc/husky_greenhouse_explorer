@@ -80,7 +80,7 @@ Navigating the full lifecycle from system design to Gazebo testing under real-wo
 - **System Integration:** Designing modular ROS 2 architectures and event-triggered launch sequences.
 - **Algorithm Optimization:** Fine-tuning Nav2 planners for tight, narrow agricultural corridors.
 - **Project Management:** Experiencing firsthand the impact of timeline management and technical documentation alongside engineering efforts.
-- 
+
 ---
 
 ## 📁 Repository Structure
