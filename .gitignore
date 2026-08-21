@@ -1,0 +1,12 @@
+# ROS 2 Derleme Klasörleri
+build/
+install/
+log/
+
+# Python ve sistem çöpleri
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
+.vscode/
+.idea/
