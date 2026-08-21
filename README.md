@@ -56,6 +56,32 @@ Due to fine-tuned costmap inflation radiuses and sensor filtering, the resulting
 * **⚡ High-Performance Event-Driven Launch System:** Time-delayed and event-triggered node management prevents CPU overload during Gazebo/RViz startup sequence.
 
 ---
+## 👥 Team & Individual Ownership
+
+This project was developed as part of a TEKNOFEST robotics team.
+
+The autonomous software stack was fully developed by me, including:
+- Custom frontier exploration node development
+- Autonomous mapping and exploration logic
+- SLAM Toolbox configuration and tuning
+- Nav2 navigation stack optimization
+- Regulated Pure Pursuit controller tuning
+- EKF-based sensor fusion and localization
+- Greenhouse navigation behavior optimization
+- Autonomous waypoint navigation integration
+
+While the project was carried out within a multidisciplinary team environment, the complete autonomy pipeline—from exploration and mapping to localization and navigation—was individually designed, implemented, tested, and optimized by me.
+
+---
+
+## 📚 Lessons Learned & Takeaways
+
+Navigating the full lifecycle from system design to Gazebo testing under real-world competition constraints provided invaluable hands-on experience in:
+- **System Integration:** Designing modular ROS 2 architectures and event-triggered launch sequences.
+- **Algorithm Optimization:** Fine-tuning Nav2 planners for tight, narrow agricultural corridors.
+- **Project Management:** Experiencing firsthand the impact of timeline management and technical documentation alongside engineering efforts.
+- 
+---
 
 ## 📁 Repository Structure
 
