@@ -34,6 +34,15 @@ Due to fine-tuned costmap inflation radiuses and sensor filtering, the resulting
 
 ---
 
+## 👨‍💻 My Technical Contributions & Engineering Impact
+
+* **Developed Custom Frontier Exploration Node:** Built an integrated Python node to drive autonomous exploration and decision-making instead of relying on manual teleoperation.
+* **Tuned Regulated Pure Pursuit Controller:** Custom-tuned Nav2 local planner parameters (`desired_linear_vel`, `lookahead_dist`, `cost_scaling_factor`) to achieve smooth, centered corridor navigation without oscillatory behaviors.
+* **Implemented Bidirectional Motion Profiles:** Reconfigured kinodynamic constraints to allow the UGV to seamlessly navigate forward and backward in dead-end greenhouse aisles, preventing dangerous 180° turns in tight spaces.
+* **Multi-Sensor EKF Integration:** Configured and fused `imu_filter_madgwick` with `robot_localization` (EKF) to guarantee sub-centimeter TF accuracy during repetitive row traversals.
+* **Environment & Launch Orchestration:** Designed custom Gazebo greenhouse worlds and built an event-driven, delayed ROS 2 launch system to optimize CPU load.
+
+---
 ## ✨ Key Engineering Features & Optimizations
 
 * **🌿 Narrow Corridor Centering:** The Nav2 local planner (`RegulatedPurePursuitController`) is heavily tuned with tailored inflation boundaries and cost scaling factors. The robot consistently stays centered between greenhouse rows rather than hugging wall edges.
