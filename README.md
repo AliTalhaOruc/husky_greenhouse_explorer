@@ -75,7 +75,7 @@ While the project was carried out within a multidisciplinary team environment, t
 ---
 
 ## 📚 Lessons Learned & Takeaways
-
+This project was developed during preparation for the TEKNOFEST Autonomous Robotics Competition.
 Navigating the full lifecycle from system design to Gazebo testing under real-world competition constraints provided invaluable hands-on experience in:
 - **System Integration:** Designing modular ROS 2 architectures and event-triggered launch sequences.
 - **Algorithm Optimization:** Fine-tuning Nav2 planners for tight, narrow agricultural corridors.
