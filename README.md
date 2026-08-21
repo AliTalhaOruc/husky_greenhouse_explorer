@@ -34,14 +34,14 @@ Due to fine-tuned costmap inflation radiuses and sensor filtering, the resulting
 
 ---
 
-## 👨‍💻 My Technical Contributions & Engineering Impact
+## 👨‍💻 My Technical Contributions
 
-* **Developed Custom Frontier Exploration Node:** Built an integrated Python node to drive autonomous exploration and decision-making instead of relying on manual teleoperation.
-* **Tuned Regulated Pure Pursuit Controller:** Custom-tuned Nav2 local planner parameters (`desired_linear_vel`, `lookahead_dist`, `cost_scaling_factor`) to achieve smooth, centered corridor navigation without oscillatory behaviors.
-* **Implemented Bidirectional Motion Profiles:** Reconfigured kinodynamic constraints to allow the UGV to seamlessly navigate forward and backward in dead-end greenhouse aisles, preventing dangerous 180° turns in tight spaces.
-* **Multi-Sensor EKF Integration:** Configured and fused `imu_filter_madgwick` with `robot_localization` (EKF) to guarantee sub-centimeter TF accuracy during repetitive row traversals.
-* **Environment & Launch Orchestration:** Designed custom Gazebo greenhouse worlds and built an event-driven, delayed ROS 2 launch system to optimize CPU load.
-
+- **Developed a Custom Frontier Exploration Node:** Implemented a ROS 2 Python node for autonomous frontier detection, goal selection, and greenhouse exploration without manual intervention.
+- **Optimized Navigation for Narrow Greenhouse Corridors:** Tuned Nav2's Regulated Pure Pursuit Controller and costmap parameters to maintain centered navigation between crop rows while minimizing wall-hugging behavior.
+- **Implemented Bidirectional Navigation Behavior:** Configured the navigation stack to support efficient forward and reverse motion, reducing unnecessary in-place rotations and improving maneuverability in dead-end aisles.
+- **Integrated Multi-Sensor Localization:** Combined LiDAR odometry, IMU filtering (`imu_filter_madgwick`), and `robot_localization` EKF to improve localization stability in repetitive greenhouse environments.
+- **Designed Custom Greenhouse Simulation Environments:** Created greenhouse worlds in Gazebo for testing autonomous exploration, mapping, and navigation under realistic corridor constraints.
+- **Built a Unified Autonomous Pipeline:** Integrated Gazebo, SLAM Toolbox, Frontier Exploration, Nav2, EKF localization, and waypoint navigation into a single launch workflow for fully autonomous operation.
 ---
 ## ✨ Key Engineering Features & Optimizations
 
