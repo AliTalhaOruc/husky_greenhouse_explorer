@@ -5,7 +5,10 @@ Markdown
 An optimized ROS 2 (Humble) autonomous SLAM exploration and navigation pipeline tailored for narrow greenhouse corridors using a Clearpath Husky Unmanned Ground Vehicle (UGV).
 
 ---
+### 🎯 Project Goal
 
+Develop a fully autonomous Husky UGV capable of exploring, mapping, and navigating narrow greenhouse corridors without human intervention while maintaining safe row-centered motion and reliable obstacle avoidance.
+---
 ## 📌 Project Overview
 
 Operating mobile robots in agricultural environments like greenhouses presents unique technical challenges: narrow row spacing, tight turning radiuses, repetitive corridor features, and frequent dynamic obstacles. 
